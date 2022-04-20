@@ -9,6 +9,8 @@ Basic app which can be used to create a Vue 3 app.
 * Vite
 * Vitest
 * Vue-router
+* Axios
+* SCSS
 
 ## Commands
 
