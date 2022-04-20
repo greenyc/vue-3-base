@@ -46,9 +46,9 @@ export default {
   </p>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 a {
-  color: #42b983;
+  color: $default-color-01;
 }
 
 label {
