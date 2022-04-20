@@ -5,7 +5,7 @@
 import { expect, describe, it, vi } from "vitest";
 import { mount } from "@vue/test-utils";
 import { createTestingPinia } from "@pinia/testing";
-import { useCounterStore } from '../stores/counter'
+import { useCounterStore } from "../stores/counter";
 
 import Counter from "./Counter.vue";
 
@@ -22,10 +22,10 @@ describe("Counter tests", () => {
       global: { plugins: [createTestingPinia({ createSpy: vi.fn })] },
     });
 
-    const store = useCounterStore()
+    const store = useCounterStore();
 
     await wrapper.find("button").trigger("click");
-    
-    expect(store.increment).toHaveBeenCalledTimes(1)
+
+    expect(store.increment).toHaveBeenCalledTimes(1);
   });
 });
