@@ -11,6 +11,7 @@ Basic app which can be used to create a Vue 3 app.
 * Vue-router
 * Axios
 * SCSS
+* Husky
 
 ## Commands
 
