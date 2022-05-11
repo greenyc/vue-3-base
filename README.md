@@ -12,6 +12,8 @@ Basic app which can be used to create a Vue 3 app.
 - Axios
 - SCSS
 - Husky
+- ESLint
+- Prettier
 
 ## Commands
 
