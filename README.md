@@ -4,14 +4,14 @@ Basic app which can be used to create a Vue 3 app.
 
 ## What tech is in this app?
 
-* Typescript
-* Pinia
-* Vite
-* Vitest
-* Vue-router
-* Axios
-* SCSS
-* Husky
+- Typescript
+- Pinia
+- Vite
+- Vitest
+- Vue-router
+- Axios
+- SCSS
+- Husky
 
 ## Commands
 
